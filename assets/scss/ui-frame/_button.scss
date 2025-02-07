@@ -60,3 +60,27 @@
   color: white;
   border-radius: 24px;
 }
+.btn{
+  padding: 12px 90px;
+  margin: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 8px;
+}
+.btn--black{
+  color: white;
+  background-color: black;
+  border: transparent;
+}
+.btn--white{
+  color: black;
+  background-color: white;
+  border: transparent;
+}
+.btn--transparent{
+  color: black;
+  background-color: transparent;
+  border: transparent;
+}
