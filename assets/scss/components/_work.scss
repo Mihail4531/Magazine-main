@@ -1,0 +1,119 @@
+.work {
+  width: 100%;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+  &__buttons {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  &__title {
+    width: 100%;
+    max-width: 497px;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+  }
+  &__content{
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+    padding: 0;
+    &-info{
+      position: absolute;
+      z-index: 15000 !important;
+    
+      bottom: 28px;
+      right: 24px;
+      display: flex;
+      justify-content: space-between;
+     width: 90%;
+      margin: 0;
+      padding: 0;
+      border-radius: 14px;
+      padding: 12px;
+      backdrop-filter: blur(36px);
+      background: rgba(255, 255, 255, 0.18);
+      &Title{
+      
+        font-weight: 500;
+        font-size: 24px;
+        margin: 0;
+        padding: 0;
+        
+      }
+      &Text{
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 14px;
+       
+      }
+        &Desck{
+          display: flex;
+          flex-direction: column;
+          
+          margin: 0;
+          padding: 0;
+        }
+    }
+    &-block{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        
+    }
+    &-span{
+        position: absolute;
+        right: 24px;
+        top: 24px;
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        color: white;
+        padding: 8px 12px;
+        border: 1px solid white;
+        border-radius: 28px;
+    }
+    &-img{
+       max-width: 588px;
+       width: 100%;
+       height: 100%;
+    }
+   
+  }
+&__swiper{
+    width: 100%;
+    height: 100%;
+    &-wrapper{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+       margin-left: 20px;
+    }
+    &-slide{
+        max-width: 588px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+}  
+
+}
+

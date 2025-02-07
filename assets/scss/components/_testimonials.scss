@@ -1,0 +1,23 @@
+.testimonials {
+    width: 100%;
+    padding-top: 64px;
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-title {
+            max-width: 330px;
+            font-weight: 500;
+            font-size: 40px;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    &__content{
+        position: relative;
+       width: 100%;
+       height: 100%;
+    }
+}

@@ -1,0 +1,47 @@
+.phone {
+ 
+  display: none;
+  
+  &__menu{
+    padding: 0;
+    margin: 0;
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &-item{
+        margin: 10px;
+        font-size: 21px;
+    }
+  }
+  &--active {
+    display: flex;
+    @include lg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        width: 100%;
+        top: 100px;
+        background-color: black;
+        height: 250px;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+      }
+      
+  }
+  &__contact{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    @include lg{
+        display: flex;
+    }
+  }
+}
